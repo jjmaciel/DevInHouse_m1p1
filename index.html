@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="assets/css/bootstrap.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <title>Lista de Afazeres</title>
+</head>
+<body>
+    
+    <div class="col-md-12 background-top justify-content-md-center">
+        
+                <img class="img-fluid img-banner" src="assets/images/banner-top.jpg" alt="imagens de um banner">
+                <div class="day">
+                    <!-- dados do dia vindo do javasript -->
+                </div>
+                <div class="clock">
+                    <!-- dados das horas vindo do javascript -->
+                </div>
+    </div>
+
+    <form class="form-control-lg input-tasks" id="form-task">
+            <div class="col-md-12">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-6">
+                        <input class="form-control" type="text" name="new-task" id="new-task" placeholder="Tem algo que preciso lembrar para você?">
+                    </div>
+                    <div class="col-md-4">
+                        <button class="form-control btn btn-primary" type="submit">Memorizar</button>
+                    </div>
+            </div>
+        </div>
+    </form>
+
+    <div class="col-md-12">
+        <div class="row justify-content-md-center">
+            <div class="col-md-6" id="list-tasks">
+                            
+                                <!-- aqui dentro as <div> serão preenchidos via 
+                            javascript através da  função newTask()  -->
+
+            </div>
+        </div><!--row-->
+    </div><!--col-md-12-->
+        
+    
+</body>
+</html>

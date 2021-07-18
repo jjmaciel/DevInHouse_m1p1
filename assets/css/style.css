@@ -1,0 +1,82 @@
+body{
+    background-color: #f3bd00;
+}
+
+/* primeira div onde fica a imagen, o relódio e a data */
+.background-top{
+    height: 260px; 
+    margin-bottom: 30px;   
+    /* Como a imagem está com a posição definida como absolute para poder ter o relógio e a data sobre e imagem
+    essa borda transparente evita com que o formulário que está logo a baixo fique sobre a imagem */
+    border: 1px solid transparent;     
+}
+
+/* definições da imagem que está no topo da página */
+.img-banner{
+    width: 100%;
+    height: 250px;
+    /* permite que a div com relógio e data seja exibida sobre a imagem */
+    position:absolute;
+    z-index:-1;
+    
+}
+
+/* definições da exibição das horas */
+.clock{
+    color: #ffffff;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+/* definições da exibição da data */
+.day{
+    color: #f3bd00;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;;
+}
+
+/* definições do botão deletar tarefa */
+.btn-delete{
+    width: 20px;
+    cursor: pointer;
+}
+
+/* risca o texto quano o botão input checkbox é clicado */
+.strike-out-text {
+    text-decoration: 3px line-through #f3bd00;
+}
+
+/* div onde fica o imput para o usuário digitar a tarefa */
+.input-tasks{
+    margin-bottom: 30px;
+}
+
+/* botão de submit da tarefa */
+.btn-primary{
+    background-color: #1a1335;
+}
+
+/* texto da tarefa exibido na lista de tarefas */
+.text_span{
+    margin-left: 15px;
+}
+
+/* div da linha individual de cada tarefa criada. Engloba os componentes input checkbox,
+texto da tarefa criada e botão de delete da tarefa */
+.row-item{
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 18px 18px 18px 18px;
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    background-color: #1a1335;
+    color: #fff;
+}
+
+/* aumenta o tamanho da fonte do texto das tarefas ao passar o mouse sobre cada linha*/
+.row-item :hover{
+    font-size: 30px;
+}
+
