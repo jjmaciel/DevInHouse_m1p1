@@ -77,6 +77,6 @@ texto da tarefa criada e botão de delete da tarefa */
 
 /* aumenta o tamanho da fonte do texto das tarefas ao passar o mouse sobre cada linha*/
 .row-item :hover{
-    font-size: 30px;
+    color: rgb(59, 247, 59);
 }
 
