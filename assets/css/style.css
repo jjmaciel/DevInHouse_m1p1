@@ -2,6 +2,11 @@ body{
     background-color: #f3bd00;
 }
 
+h1{
+    font-size: 30px;
+    font-family: Audiowide;
+}
+
 /* primeira div onde fica a imagen, o relódio e a data */
 .background-top{
     height: 260px; 
